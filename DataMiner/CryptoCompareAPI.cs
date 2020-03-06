@@ -104,7 +104,7 @@ namespace CryptoCompare
             param["limit"] = limit;
             if (!toTs.Equals(""))
                 param["toTs"] = toTs;
-            param["api_key"] = Key.json["CryptoCompareAPI_key"].ToString ();
+            param["api_key"] = Key.json["cryptoCompareAPI_key"].ToString ();
             return Query("GET", "/histohour", param);
         }
     }

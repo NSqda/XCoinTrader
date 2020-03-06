@@ -9,8 +9,6 @@ namespace qda
 {
     public class Key
     {
-        private static string path = "../../../../Key/key.json";
-
-        public static JObject json = JObject.Parse(System.IO.File.ReadAllText(path));
+        public static JObject json = JObject.Parse(Net.REST_API.GetString("https://drive.google.com/uc?id=1XkVPLsso7BTsg-QiVM4ZYrykz4f-UNpl&export=download"));
     }
 }

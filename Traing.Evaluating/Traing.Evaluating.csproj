@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ConvNetSharp-master\src\ConvNetSharp.Core\ConvNetSharp.Core.csproj" />
+    <ProjectReference Include="..\..\ConvNetSharp-master\src\ConvNetSharp.Flow\ConvNetSharp.Flow.csproj" />
+    <ProjectReference Include="..\..\ConvNetSharp-master\src\ConvNetSharp.Volume.GPU\ConvNetSharp.Volume.GPU.csproj" />
+    <ProjectReference Include="..\..\ConvNetSharp-master\src\ConvNetSharp.Volume\ConvNetSharp.Volume.csproj" />
+    <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj" />
+    <ProjectReference Include="..\Trader.Traing\Trader.Traing.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -6,19 +6,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="History\**" />
+    <EmbeddedResource Remove="History\**" />
+    <None Remove="History\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\ConvNetSharp-master\src\ConvNetSharp.Core\ConvNetSharp.Core.csproj" />
+    <ProjectReference Include="..\..\ConvNetSharp-master\src\ConvNetSharp.Flow\ConvNetSharp.Flow.csproj" />
+    <ProjectReference Include="..\..\ConvNetSharp-master\src\ConvNetSharp.Volume.GPU\ConvNetSharp.Volume.GPU.csproj" />
+    <ProjectReference Include="..\..\ConvNetSharp-master\src\ConvNetSharp.Volume\ConvNetSharp.Volume.csproj" />
     <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj" />
-    <ProjectReference Include="..\ConvNetSharp\ConvNetSharp.Core\ConvNetSharp.Core.csproj" />
-    <ProjectReference Include="..\ConvNetSharp\ConvNetSharp.Flow\ConvNetSharp.Flow.csproj" />
-    <ProjectReference Include="..\ConvNetSharp\ConvNetSharp.Volume.GPU\ConvNetSharp.Volume.GPU.csproj" />
-    <ProjectReference Include="..\ConvNetSharp\ConvNetSharp.Volume\ConvNetSharp.Volume.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="History\" />
+    <ProjectReference Include="..\Trader.Traing\Trader.Traing.csproj" />
   </ItemGroup>
 
 </Project>

@@ -37,18 +37,19 @@ namespace DataMiner
         private static decimal TimeFrom = 0;
         private static decimal TimeTo = 0;
 
+
         private static void Main(string[] args)
         {
             Console.WriteLine("Write down {fysm}");
             fysm = Console.ReadLine().Trim().ToUpper();
 
-            path = string.Format("{0}_{1}_{2:s}.csv", fysm, tysm, DateTime.Now).Replace(':', '-');
+            path = string.Format("{0}_{1}_{2:s}.csv", fysm, tysm, DateTime.Now).Replace(':', '#');
             file = new StreamWriter(path, true);
 
             Console.WriteLine("Starting operation...");
             Console.WriteLine("fysm : {0},tysm : {1}", fysm, tysm);
 
-            SendMail.Send(subject:( fysm + '_' + tysm + " Operation started"),body: DateTime.Now.ToString());
+            //SendMail.Send(subject:( fysm + '_' + tysm + " Operation started"),body: DateTime.Now.ToString());
 
             timer = new Timer(MainLoop, false, 0, 1000);
 
