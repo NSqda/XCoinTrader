@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Traing.Evaluating
+namespace Trader.Evaluating
 {
     public static class DataSet
     {

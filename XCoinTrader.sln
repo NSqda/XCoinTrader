@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataMiner", "DataMiner\Data
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{C5114275-461A-4B16-8B7F-BC03005A1ED4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trader.Traing", "Trader.Traing\Trader.Traing.csproj", "{EB43D271-A7CC-4FB3-B85C-FE2A89E9E781}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trader.Training", "Trader.Traing\Trader.Training.csproj", "{EB43D271-A7CC-4FB3-B85C-FE2A89E9E781}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvNetSharp.Volume.GPU", "..\ConvNetSharp-master\src\ConvNetSharp.Volume.GPU\ConvNetSharp.Volume.GPU.csproj", "{E61C900E-E80D-49F3-8675-BF069771E11F}"
 EndProject
@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvNetSharp.Core", "..\Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvNetSharp.Flow", "..\ConvNetSharp-master\src\ConvNetSharp.Flow\ConvNetSharp.Flow.csproj", "{65186A7A-E2E3-46DF-BC59-61FF4A8E3611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traing.Evaluating", "Traing.Evaluating\Traing.Evaluating.csproj", "{498F563B-0FB4-49A8-99C1-7AF2478C7FC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trader.Evaluating", "Traing.Evaluating\Trader.Evaluating.csproj", "{498F563B-0FB4-49A8-99C1-7AF2478C7FC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

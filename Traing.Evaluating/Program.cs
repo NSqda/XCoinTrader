@@ -12,10 +12,10 @@ using ConvNetSharp.Core.Training;
 using ConvNetSharp.Core.Training.Double;
 using ConvNetSharp.Volume;
 using ConvNetSharp.Volume.GPU.Double;
-using Trader.Traing;
+using Trader.Training;
 using System.Diagnostics;
 
-namespace Traing.Evaluating
+namespace Trader.Evaluating
 {
     public class Program
     {

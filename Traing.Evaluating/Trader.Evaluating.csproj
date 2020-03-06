@@ -11,7 +11,7 @@
     <ProjectReference Include="..\..\ConvNetSharp-master\src\ConvNetSharp.Volume.GPU\ConvNetSharp.Volume.GPU.csproj" />
     <ProjectReference Include="..\..\ConvNetSharp-master\src\ConvNetSharp.Volume\ConvNetSharp.Volume.csproj" />
     <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj" />
-    <ProjectReference Include="..\Trader.Traing\Trader.Traing.csproj" />
+    <ProjectReference Include="..\Trader.Traing\Trader.Training.csproj" />
   </ItemGroup>
 
 </Project>

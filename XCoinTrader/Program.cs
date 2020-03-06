@@ -17,7 +17,7 @@ using XCoinTrader;
 using System.IO;
 using System.Text;
 using System.Linq;
-using Trader.Traing;
+using Trader.Training;
 
 namespace XCoinTrader
 {

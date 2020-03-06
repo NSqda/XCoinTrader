@@ -14,7 +14,7 @@ using ConvNetSharp.Volume;
 using ConvNetSharp.Volume.GPU;
 using ConvNetSharp.Volume.GPU.Double;
 
-namespace Trader.Traing
+namespace Trader.Training
 {
     public class Program
     {
